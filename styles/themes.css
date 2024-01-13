@@ -1,9 +1,35 @@
-.page.theme-light {
+:root.theme-light {
   --card-title-font-weight: 700;
   --card-text-font-weight: 400;
+  --accent-color: #000;
+  --bg-color: #fff;
+  --bg-image: url(../svg/pattern-light.svg);
 }
 
-.page.theme-dark {
+@media (prefers-color-scheme: light) {
+  :root.theme-light {
+    --card-title-font-weight: 700;
+    --card-text-font-weight: 400;
+    --accent-color: #000;
+    --bg-color: #fff;
+    --bg-image: url(../svg/pattern-light.svg);
+  }
+}
+
+:root.theme-dark {
   --card-title-font-weight: 785;
   --card-text-font-weight: 465;
+  --accent-color: #00cc14;
+  --bg-color: #000;
+  --bg-image: url(../svg/pattern-dark.svg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root.theme-dark {
+    --card-title-font-weight: 785;
+    --card-text-font-weight: 465;
+    --accent-color: #00cc14;
+    --bg-color: #000;
+    --bg-image: url(../svg/pattern-dark.svg);
+  }
 }
