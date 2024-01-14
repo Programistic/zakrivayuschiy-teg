@@ -96,6 +96,7 @@
 }
 
 .theme-menu__button {
+  position: relative;
   padding: 0;
   border: none;
   background-color: transparent;
@@ -112,4 +113,10 @@
   opacity: .6;
 }
 
-
+.theme-menu__button:disabled::before {
+  position: absolute;
+  content: '▶';
+  left: -20px;
+  width: 10px;
+  height: 10px;
+}
