@@ -1,4 +1,4 @@
-:root.theme-light {
+.page.theme-light {
   --card-title-font-weight: 700;
   --card-text-font-weight: 400;
   --accent-color: #000;
@@ -7,7 +7,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-light {
+  .page {
     --card-title-font-weight: 700;
     --card-text-font-weight: 400;
     --accent-color: #000;
@@ -16,7 +16,7 @@
   }
 }
 
-:root.theme-dark {
+.page.theme-dark {
   --card-title-font-weight: 785;
   --card-text-font-weight: 465;
   --accent-color: #00cc14;
@@ -25,7 +25,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-dark {
+  .page {
     --card-title-font-weight: 785;
     --card-text-font-weight: 465;
     --accent-color: #00cc14;
