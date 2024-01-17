@@ -30,7 +30,7 @@
   content: '';
   inset: 0;
   width: 100%;
-  height: 960px;
+  height: 100vh;
   background-image: var(--bg-image);
   background-size: 4px;
   background-position: center;
@@ -125,10 +125,6 @@
   margin: 0 auto;
   padding: 100px 0 0;
   max-width: 696px;
-}
-
-.card-list {
-  
 }
 
 .card-list__item {
