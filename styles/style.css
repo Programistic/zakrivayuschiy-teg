@@ -38,11 +38,13 @@
   z-index: -1;
 }
 
-.header {
+.container {
   margin: 0 auto;
+  max-inline-size: 696px;
+}
+
+.header {
   padding: 120px 0 25px;
-  max-width: 696px;
-  min-width: min-content;
   font-family: var(--accent-font);
   line-height: 1;
   color: var(--accent-color);
@@ -122,9 +124,7 @@
 }
 
 .main {
-  margin: 0 auto;
   padding: 100px 0 0;
-  max-width: 696px;
 }
 
 .card-list__item {
@@ -190,9 +190,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
   padding: 0 34px;
-  max-width: 696px;
 }
 
 .button-save {
