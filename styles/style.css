@@ -19,7 +19,7 @@
   padding: 100px 0;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font: 400 18px/1.17 var(--main-font);
+  font-family: var(--main-font);
   color: var(--accent-color);
   background-color: var(--bg-color);
 }
@@ -134,7 +134,7 @@
 .heading {
   font-size: 18px;
   line-height: 1.21;
-  font-variation-settings: 'wght' var(--card-heading-font-weight, 700), 'slnt' 0;
+  font-variation-settings: 'wght' var(--font-weight-bold, 700), 'slnt' 0;
 }
 
 .card__heading {
@@ -157,7 +157,7 @@
   padding: 25px;
   font-size: 18px;
   line-height: 1.17;
-  font-variation-settings: 'wght' var(--card-text-font-weight, 400), 'slnt' 0;
+  font-variation-settings: 'wght' var(--font-weight-regular, 400), 'slnt' 0;
 }
 
 .button {
