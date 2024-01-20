@@ -1,4 +1,10 @@
 .page {
-  --main-font: 'Inter-Variable', 'sans-serif';
-  --accent-font: 'PressStart2P', 'sans-serif';
+  --main-font: 'Inter', 'Arial', 'sans-serif';
+  --accent-font: 'PressStart2P', 'Arial', 'sans-serif';
+}
+
+@supports (font-variation-settings: normal) {
+  .page {
+    --main-font: 'Inter-Variable', 'sans-serif';
+  }
 }

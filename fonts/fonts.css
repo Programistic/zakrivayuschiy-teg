@@ -1,22 +1,40 @@
 @font-face {
   font-display: swap;
   font-family: 'PressStart2P';
+  font-weight: 400;
   src:
-    local('Press-Start-2P'),
     local('Press Start 2P'),
     local('PressStart2P'),
     url(./PressStart2P-Regular.woff) format('woff');
-  font-weight: 400;
 }
 
 @font-face {
   font-display: swap;
   font-family: 'Inter-Variable';
+  font-weight: 400 785;
   src:
-    local('Inter-Variable'),
     local('Inter Variable'),
-    local('InterVariable'),
+    local('Inter-Variable'),
     url(./Inter-Variable.woff2) format('woff2 supports variations'),
     url(./Inter-Variable.woff2) format('woff2-variations');
-  font-weight: 400 785;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-weight: 400;
+  src:
+    local('Inter Regular'),
+    local('Inter-Regular'),
+    url(./Inter-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-weight: 800;
+  src:
+    local('Inter ExtraBold'),
+    local('Inter-ExtraBold'),
+    url(./Inter-ExtraBold.ttf) format('ttf');
 }

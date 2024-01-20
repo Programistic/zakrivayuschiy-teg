@@ -134,7 +134,7 @@
 .heading {
   font-size: 18px;
   line-height: 1.21;
-  font-weight: var(--card-heading-font-weight); 
+  font-weight: var(--card-heading-font-weight);
 }
 
 .card__heading {
