@@ -134,7 +134,7 @@
 .heading {
   font-size: 18px;
   line-height: 1.21;
-  font-variation-settings: 'wght' var(--card-heading-font-weight);
+  font-variation-settings: 'wght' var(--card-heading-font-weight, 700), 'slnt' 0;
 }
 
 .card__heading {
@@ -157,7 +157,7 @@
   padding: 25px;
   font-size: 18px;
   line-height: 1.17;
-  font-variation-settings: 'wght' var(--card-text-font-weight);
+  font-variation-settings: 'wght' var(--card-text-font-weight, 400), 'slnt' 0;
 }
 
 .button {

@@ -5,6 +5,6 @@
 
 @supports (font-variation-settings: normal) {
   .page {
-    --main-font: 'Inter-Variable', 'sans-serif';
+    --main-font: 'Inter-Variable', 'Arial', 'sans-serif';
   }
 }
