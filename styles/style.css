@@ -20,6 +20,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font);
+  font-variation-settings: 'wght' var(--font-weight-regular, 400), 'slnt' 0;
   color: var(--accent-color);
   background-color: var(--bg-color);
 }
@@ -157,7 +158,6 @@
   padding: 25px;
   font-size: 18px;
   line-height: 1.17;
-  font-variation-settings: 'wght' var(--font-weight-regular, 400), 'slnt' 0;
 }
 
 .button {
