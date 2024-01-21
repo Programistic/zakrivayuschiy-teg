@@ -4,6 +4,7 @@
   --accent-color: #000;
   --bg-color: #fff;
   --bg-image: url(../svg/pattern-light.svg);
+  --like-icon-contour-color: #000;
 }
 
 @media (prefers-color-scheme: light) {
@@ -13,6 +14,7 @@
     --accent-color: #000;
     --bg-color: #fff;
     --bg-image: url(../svg/pattern-light.svg);
+    --like-icon-contour-color: #000;
   }
 }
 
@@ -22,6 +24,7 @@
   --accent-color: #00cc14;
   --bg-color: #000;
   --bg-image: url(../svg/pattern-dark.svg);
+  --like-icon-contour-color: #00cc14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,5 +34,6 @@
     --accent-color: #00cc14;
     --bg-color: #000;
     --bg-image: url(../svg/pattern-dark.svg);
+    --like-icon-contour-color: #00cc14;
   }
 }
