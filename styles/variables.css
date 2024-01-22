@@ -4,7 +4,6 @@
   --like-icon-is-liked-color: #ff0000;
   --like-icon-core-color: transparent;
   --like-icon-body-color: transparent;
-  --like-icon-sparks-color: #ff0000;
 }
 
 @supports (font-variation-settings: normal) {

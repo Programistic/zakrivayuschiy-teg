@@ -163,20 +163,22 @@
   line-height: 1.17;
 }
 
-.card__footer {
+.card__icon-button-container {
   display: flex;
-  column-gap: 12px;
+  column-gap: 6px;
   justify-content: end;
   padding: 0 25px;
 }
 
 .card__icon-button {
-  align-self: center; 
+  align-self: center;
   padding: 0;
-  min-inline-size: 39px;
-  min-block-size: 36px;
+  inline-size: 39px;
+  block-size: 36px;
   background-color: transparent;
   border: none;
+  outline: 2px solid transparent;
+  outline-offset: -1px;
   cursor: pointer;
 }
 
@@ -186,10 +188,7 @@
 
 .card__icon-button:focus-visible {
   outline: 2px solid var(--accent-color);
-}
-
-.like-icon {
-  fill: var(--like-icon-fill-color);
+  transition: outline .3s ease;
 }
 
 .like-icon__core {
@@ -235,6 +234,10 @@
   transition: fill .3s .06s linear;
 }
 
+.like-icon__heart {
+  transform-origin: center;
+}
+
 .like-icon.is-liked .like-icon__heart {
   animation: heart-scale .3s .1s ease-in;
 }
@@ -244,7 +247,7 @@
     transform: scale(1);
   }
   to {
-    transform: scale(1.15);
+    transform: scale(1.5);
   }
 }
 
@@ -254,7 +257,6 @@
 
 .like-icon.is-liked .like-icon__sparks {
   animation: sparks-visible .3s .3s ease-in;
-  
 }
 
 @keyframes sparks-visible {
