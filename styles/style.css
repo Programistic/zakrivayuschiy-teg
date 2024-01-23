@@ -221,9 +221,10 @@
 .button::after {
   position: absolute;
   content: '';
-  inset: 0;
-  inline-size: 100%;
-  block-size: 100%;
+  inset-inline-start: -1px;
+  inset-block-start: 0;
+  inline-size: 101%;
+  block-size: 105%;
   background-color: var(--accent-color);
   transform-origin: left;
   transform: scaleX(0);
@@ -361,8 +362,9 @@
 
 .card__like-button {
   position: relative;
+  padding: 11px 0 8px;
   min-inline-size: 130px;
-  min-block-size: 38px;
+  line-height: .9;
 }
 
 .footer {
