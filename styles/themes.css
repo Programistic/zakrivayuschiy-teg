@@ -5,6 +5,7 @@
   --bg-color: #fff;
   --bg-image: url(../svg/pattern-light.svg);
   --like-icon-contour-color: #000;
+  --accent-color-hover: #fff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -15,6 +16,7 @@
     --bg-color: #fff;
     --bg-image: url(../svg/pattern-light.svg);
     --like-icon-contour-color: #000;
+    --accent-color-hover: #fff;
   }
 }
 
@@ -25,6 +27,7 @@
   --bg-color: #000;
   --bg-image: url(../svg/pattern-dark.svg);
   --like-icon-contour-color: #00cc14;
+  --accent-color-hover: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,5 +38,6 @@
     --bg-color: #000;
     --bg-image: url(../svg/pattern-dark.svg);
     --like-icon-contour-color: #00cc14;
+    --accent-color-hover: #000;
   }
 }
