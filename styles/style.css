@@ -117,9 +117,20 @@
 .theme-menu__button:disabled::before {
   position: absolute;
   content: '▶';
-  inset-inline-start: -20px;
-  inline-size: 10px;
-  block-size: 10px;
+  inset-inline-start: -22px;
+  inset-block-start: 1px;
+  inline-size: 14px;
+  block-size: 14px;
+  animation: arrow-move .5s ease-in-out infinite reverse;
+}
+
+@keyframes arrow-move {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: 4px;
+  }
 }
 
 .theme-menu__button:focus {
