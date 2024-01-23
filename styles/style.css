@@ -83,10 +83,12 @@
   max-inline-size: min-content;
 }
 
+.theme-menu__list {
+  margin-inline-start: 10px;
+}
+
 .theme-menu__item {
   margin-block-end: 14px;
-  margin-inline-start: 4px;
-  line-height: 1;
   text-align: left;
 }
 
@@ -100,6 +102,7 @@
   border: none;
   background-color: transparent;
   font-size: 14px;
+  line-height: 1;
   text-transform: uppercase;
   transition: opacity .3s ease;
   cursor: pointer;
