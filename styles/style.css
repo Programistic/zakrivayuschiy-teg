@@ -101,6 +101,7 @@
   background-color: transparent;
   font-size: 14px;
   text-transform: uppercase;
+  transition: opacity .3s ease;
   cursor: pointer;
 }
 
@@ -109,6 +110,7 @@
 }
 
 .theme-menu__button:disabled {
+  pointer-events: none;
   opacity: .6;
 }
 
