@@ -19,6 +19,7 @@
     url(./Inter-Variable.woff2) format('woff2-variations');
 }
 
+/*
 @font-face {
   font-display: swap;
   font-family: 'Inter';
@@ -38,3 +39,4 @@
     local('Inter-ExtraBold'),
     url(./Inter-ExtraBold.ttf) format('ttf');
 }
+*/
