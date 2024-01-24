@@ -19,6 +19,7 @@
   background-image: var(--bg-image);
   background-size: 4px;
   background-position: center;
+  background-attachment: fixed;
   z-index: -1;
 }
 
