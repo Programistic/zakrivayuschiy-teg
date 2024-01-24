@@ -318,7 +318,7 @@
 }
 
 .like-icon.is-liked .like-icon__heart {
-  animation: heart-scale .3s .1s ease-in;
+  animation: heart-scale .3s .1s ease-in alternate;
 }
 
 @keyframes heart-scale {
@@ -335,7 +335,7 @@
 }
 
 .like-icon.is-liked .like-icon__sparks {
-  animation: sparks-visible .3s .3s ease-in;
+  animation: sparks-visible .3s .3s ease-in alternate;
 }
 
 @keyframes sparks-visible {
