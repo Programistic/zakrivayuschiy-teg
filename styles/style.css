@@ -308,6 +308,10 @@
   transition: fill .3s .03s linear;
 }
 
+.like-icon__contour {
+  transition: fill .1s linear;
+}
+
 .like-icon.is-liked .like-icon__contour {
   fill: var(--like-icon-is-liked-color);
   transition: fill .3s .06s linear;
