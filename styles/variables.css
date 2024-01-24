@@ -5,11 +5,3 @@
   --like-icon-core-color: transparent;
   --like-icon-body-color: transparent;
 }
-
-/*
-@supports (font-variation-settings: normal) {
-  .page {
-    --main-font: 'Inter-Variable', 'Arial', 'sans-serif';
-  }
-}
-*/
