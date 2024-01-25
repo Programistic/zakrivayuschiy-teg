@@ -1,1 +1,7 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+.page {
+  --main-font: 'Inter-Variable', 'Arial', sans-serif;
+  --accent-font: 'PressStart2P', 'Arial', sans-serif;
+  --like-icon-is-liked-color: #ff0000;
+  --like-icon-core-color: transparent;
+  --like-icon-body-color: transparent;
+}
