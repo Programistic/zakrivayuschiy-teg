@@ -2,6 +2,7 @@
   --font-weight-bold: 700;
   --font-weight-regular: 400;
   --accent-color: #000;
+  --label-accent-color: #fff;
   --bg-color: #fff;
   --like-icon-contour-color: #000;
   --accent-color-hover: #fff;
@@ -16,6 +17,7 @@
     --font-weight-bold: 700;
     --font-weight-regular: 400;
     --accent-color: #000;
+    --label-accent-color: #fff;
     --bg-color: #fff;
     --like-icon-contour-color: #000;
     --accent-color-hover: #fff;
@@ -30,6 +32,7 @@
   --font-weight-bold: 785;
   --font-weight-regular: 465;
   --accent-color: #00cc14;
+  --label-accent-color: #000;
   --bg-color: #000;
   --like-icon-contour-color: #00cc14;
   --accent-color-hover: #000;
@@ -44,6 +47,7 @@
     --font-weight-bold: 785;
     --font-weight-regular: 465;
     --accent-color: #00cc14;
+    --label-accent-color: #000;
     --bg-color: #000;
     --like-icon-contour-color: #00cc14;
     --accent-color-hover: #000;
