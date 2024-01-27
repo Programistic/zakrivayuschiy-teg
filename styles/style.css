@@ -1,6 +1,5 @@
 .page {
   position: relative;
-  margin: 0 auto;
   padding: 100px 0;
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -352,4 +351,46 @@
     inline-size: 28px;
     block-size: 28px;
   }
+}
+
+.popup {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 39px 234px;
+  grid-template-rows: 63px 38px;
+  gap: 30px 20px;
+  padding: 30px;
+  inline-size: 357px;
+  block-size: 193px;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  border: 2px solid var(--accent-color);
+}
+
+.popup::backdrop {
+  background-color: #000;
+}
+
+.popup__floppy-icon {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  block-size: 39px;
+  inline-size: 39px;
+  align-self: center;
+  justify-self: center;
+}
+
+.popup__heading {
+  grid-column: 2 / -1;
+  font: 400 14px/1.5 var(--accent-font);
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.popup__button {
+  grid-column: 1 / -1;
+  font: 400 14px/1.5 var(--accent-font);
+  color: var(--accent-color);
+  text-transform: uppercase;
 }
