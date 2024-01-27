@@ -184,14 +184,45 @@
   text-transform: uppercase;
 }
 
-.card__image {
+.image {
   display: block;
   inline-size: 100%;
   block-size: 100%;
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
   object-fit: cover;
   object-position: center;
+}
+
+.card-list__item:nth-of-type(2) .image {
+  filter: opacity(.5);
+}
+
+.card-list__item:nth-of-type(3) .image {
+  filter: grayscale(.6) contrast(2);
+}
+
+.card-list__item:nth-of-type(4) .image {
+  filter: saturate(.1);
+}
+
+.card-list__item:nth-of-type(5) .image {
+  filter: blur(5px);
+}
+
+.card-list__item:nth-of-type(6) .image {
+  filter: invert(.7);
+}
+
+.card-list__item:nth-of-type(7) .image {
+  filter: sepia(1);
+}
+
+.card-list__item:nth-of-type(8) .image {
+  filter: hue-rotate(90deg) brightness(80%) invert(.2);
+}
+
+.card__image {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
   border-block-start: 2px solid var(--accent-color);
   border-block-end: 2px solid var(--accent-color);
 }
