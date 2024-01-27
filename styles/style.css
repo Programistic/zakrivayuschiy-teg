@@ -7,10 +7,8 @@
   font-family: var(--main-font);
   font-variation-settings: 'wght' var(--font-weight-regular, 400);
   color: var(--accent-color);
-  background-color: var(--bg-color);
   background-image: var(--bg-image);
-  background-size: 4px;
-  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
