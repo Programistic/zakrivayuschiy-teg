@@ -259,7 +259,7 @@
   background-color: var(--accent-color);
   transform-origin: left;
   transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }
 
 .button:hover.button::after {
@@ -279,18 +279,7 @@
   font: 400 14px/0.9 var(--accent-font);
   color: var(--mix-accent-color);
   mix-blend-mode: difference;
-  transition: color 1s ease;
   z-index: 1;
-}
-
-.button:hover .button__text {
-  color: var(--mix-accent-color);
-  transition: color 1s ease;
-}
-
-.button:hover .floppy-icon {
-  color: var(--mix-accent-color);
-  transition: color 1s ease;
 }
 
 .card__icon-button {
