@@ -244,6 +244,7 @@
 }
 
 .button {
+  position: relative;
   padding: 0;
   border: 2px solid var(--accent-color);
   background-color: var(--bg-color);
@@ -366,7 +367,7 @@
 .popup__inner-container {
   display: grid;
   grid-template-columns: 39px 1fr;
-  grid-template-rows: max-content 38px;
+  grid-template-rows: 1fr 38px;
   gap: 30px 20px;
 }
 
@@ -392,17 +393,6 @@
 
 .popup__button {
   grid-column: 1 / -1;
-  padding: 0;
-  border: 2px solid var(--accent-color);
-  background-color: var(--bg-color);
   text-transform: uppercase;
-  cursor: pointer;
 }
 
-.popup__button:focus {
-  outline: none;
-}
-
-.popup__button:focus-visible {
-  box-shadow: 2px 2px var(--accent-color);
-}
