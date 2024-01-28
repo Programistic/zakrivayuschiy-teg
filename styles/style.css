@@ -247,7 +247,7 @@
   position: relative;
   padding: 0;
   border: 2px solid var(--accent-color);
-  background-color: var(--bg-color);
+  background-color: var(--bg-color);  
   white-space: nowrap;
   box-shadow: 2px 2px transparent;
   transition: box-shadow 0.3s ease;
@@ -264,7 +264,7 @@
   background-color: var(--accent-color);
   transform-origin: left;
   transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }
 
 .button:hover.button::after {
@@ -282,18 +282,19 @@
 .button__text {
   position: relative;
   font: 400 14px/0.9 var(--accent-font);
-  color: var(--accent-color);
+  color: var(--mix-accent-color);
+  mix-blend-mode: difference;
   transition: color 1s ease;
   z-index: 1;
 }
 
 .button:hover .button__text {
-  color: var(--accent-color-hover);
+  color: var(--mix-accent-color);
   transition: color 1s ease;
 }
 
 .button:hover .floppy-icon {
-  color: var(--accent-color-hover);
+  color: var(--mix-accent-color);
   transition: color 1s ease;
 }
 
@@ -329,7 +330,8 @@
   position: relative;
   inline-size: 21px;
   block-size: 21px;
-  color: var(--accent-color);
+  color: var(--mix-accent-color);
+  mix-blend-mode: difference;
   transition: color 1s ease;
   z-index: 1;
 }
