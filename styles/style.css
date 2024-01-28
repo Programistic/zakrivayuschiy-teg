@@ -356,20 +356,23 @@
 .popup {
   position: fixed;
   inset: 0;
-  display: grid;
-  grid-template-columns: 39px 234px;
-  grid-template-rows: 63px 38px;
-  gap: 30px 20px;
   padding: 30px;
-  inline-size: 357px;
-  block-size: 193px;
-  box-sizing: border-box;
+  inline-size: 358px;
+  block-size: 194px;
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
 }
 
+.popup__inner-container {
+  display: grid;
+  grid-template-columns: 39px 1fr;
+  grid-template-rows: max-content 38px;
+  gap: 30px 20px;
+}
+
 .popup::backdrop {
-  background-color: #000;
+  background-color: rgb(0 0 0 / .75);
+  backdrop-filter: blur(5px);
 }
 
 .popup__floppy-icon {
@@ -378,7 +381,6 @@
   block-size: 39px;
   inline-size: 39px;
   align-self: center;
-  justify-self: center;
 }
 
 .popup__heading {
@@ -390,7 +392,17 @@
 
 .popup__button {
   grid-column: 1 / -1;
-  font: 400 14px/1.5 var(--accent-font);
-  color: var(--accent-color);
+  padding: 0;
+  border: 2px solid var(--accent-color);
+  background-color: var(--bg-color);
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.popup__button:focus {
+  outline: none;
+}
+
+.popup__button:focus-visible {
+  box-shadow: 2px 2px var(--accent-color);
 }
