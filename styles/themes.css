@@ -2,10 +2,14 @@
   --font-weight-bold: 700;
   --font-weight-regular: 400;
   --accent-color: #000;
+  --label-accent-color: #fff;
+  --mix-accent-color: #fff;
   --bg-color: #fff;
-  --bg-image: url(../svg/pattern-light.svg);
   --like-icon-contour-color: #000;
-  --accent-color-hover: #fff;
+  --bg-image:
+    repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
 }
 
 @media (prefers-color-scheme: light) {
@@ -13,10 +17,14 @@
     --font-weight-bold: 700;
     --font-weight-regular: 400;
     --accent-color: #000;
+    --label-accent-color: #fff;
+    --mix-accent-color: #fff;
     --bg-color: #fff;
-    --bg-image: url(../svg/pattern-light.svg);
     --like-icon-contour-color: #000;
-    --accent-color-hover: #fff;
+    --bg-image:
+      repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+      repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+      repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
   }
 }
 
@@ -24,10 +32,14 @@
   --font-weight-bold: 785;
   --font-weight-regular: 465;
   --accent-color: #00cc14;
+  --label-accent-color: #000;
+  --mix-accent-color: #00cc14;
   --bg-color: #000;
-  --bg-image: url(../svg/pattern-dark.svg);
   --like-icon-contour-color: #00cc14;
-  --accent-color-hover: #000;
+  --bg-image:
+    repeating-linear-gradient(to right, #000 0, #000 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(#000 0, #000 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(#007f0c, #004306);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,9 +47,13 @@
     --font-weight-bold: 785;
     --font-weight-regular: 465;
     --accent-color: #00cc14;
+    --label-accent-color: #000;
+    --mix-accent-color: #00cc14;
     --bg-color: #000;
-    --bg-image: url(../svg/pattern-dark.svg);
     --like-icon-contour-color: #00cc14;
-    --accent-color-hover: #000;
+    --bg-image:
+      repeating-linear-gradient(to right, #000 0, #000 2px, transparent 2px, transparent 4px),
+      repeating-linear-gradient(#000 0, #000 2px, transparent 2px, transparent 4px),
+      repeating-linear-gradient(#007f0c, #004306);
   }
 }
