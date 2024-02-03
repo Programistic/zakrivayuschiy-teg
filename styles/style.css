@@ -334,7 +334,6 @@
   inset: 0;
   padding: 30px;
   inline-size: 358px;
-  min-block-size: 194px;
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
   overflow: hidden;
