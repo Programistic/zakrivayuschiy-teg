@@ -595,13 +595,14 @@
         >
           <use href="./svg/popup-floppy.svg#popup-floppy"></use>
         </svg>
-        <button
-          class="button popup__button"
-          type="button"
-          onclick="window['popup-id'].close()"
-        >
-          <span class="button__text">Ок</span>
-        </button>
+        <form method="dialog" class="popup__form">
+          <button
+            class="button popup__button"
+            onclick="window['popup-id'].close()"
+          >
+            <span class="button__text">Ок</span>
+          </button>
+        </form>
       </div>
     </dialog>
     <script src="./scripts/set-theme.js"></script>
